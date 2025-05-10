@@ -1,0 +1,33 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+}
+
+/* at this width */
+/* @media(width : 600px){
+    div{
+        background-color: brown;
+    }
+} */
+
+/* at and above this width */
+/* @media(min-width : 600px){
+    div{
+        background-color: black;
+    }
+} */
+
+/* at and below this width */
+/* @media(max-width : 600px){
+    div{
+        background-color: coral;
+    }
+} */
+
+/* in the range */
+@media(min-width : 200px) and (max-width : 400px){
+    div{
+        background-color: darkslategray;
+    }
+}

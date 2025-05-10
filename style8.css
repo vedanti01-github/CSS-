@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width:  150px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+#container{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center; */
+}
+
+#box2{
+    height: 200px;
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    
+
+}
+
+#box3{
+    height: 75px;
+    /* align-self: flex-end; */
+    /* flex-grow: 0.5; */
+
+
+}
+
+#box5{
+    align-self: center;
+}

@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    /* animation-name: myFirstAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  */
+    animation: myFirstAnimation 2s ease-in 0s infinite alternate ;
+
+}
+
+@keyframes myFirstAnimation{
+    0%{
+        background-color: aquamarine;
+        left: 0px;
+    }
+    50%{
+        background-color: black;
+        left: 100px;
+    }
+    100%{
+        background-color: lightsalmon;
+        left: 200px;
+    }
+
+}

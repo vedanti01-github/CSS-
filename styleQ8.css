@@ -1,0 +1,11 @@
+div{
+    height: 70px;
+    width: 150px;
+    background-color: aqua;
+    border: 3px solid black;
+    position: fixed;
+    background-image: url("HNY.jpg");
+    background-size: cover;
+    top: 50px;
+    right: 0;
+}

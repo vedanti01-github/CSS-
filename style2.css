@@ -1,0 +1,49 @@
+p{
+    text-align: center;
+}
+
+/* h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: red wavy underline;
+    text-decoration: green dotted underline;
+    text-decoration: yellow dashed underline;
+} */
+
+a{
+    text-decoration: none;
+}
+
+#HH1{
+    font-weight: 900;
+}
+#HH2{
+    font-weight: 300;
+}
+#HH3{
+    font-weight: 500;
+}
+#HH4{
+    font-weight: 400;
+}
+
+#A1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 28px;
+    text-transform: lowercase;
+}
+#A2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+#A3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    text-transform: capitalize;
+}

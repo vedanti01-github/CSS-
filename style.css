@@ -1,0 +1,46 @@
+/* h1{
+    color : blue;
+}
+
+p{
+    color :blueviolet;
+}
+
+button{
+    color :brown;
+    background-color: yellow;
+}
+
+body{
+    background-color: burlywood;
+    background-color: rgb(255,0,255);
+    background-color: #ffff00;
+}    */
+
+*{
+    color : magenta;
+}
+
+h1{
+    color :aquamarine;
+}
+
+#HH1{
+    color :blueviolet;
+}
+
+#HH2{
+    color :red;
+}
+
+#HH3{
+    color :brown;
+}
+
+#HH4{
+    color :green;
+}
+
+.CC1{
+    color :cornflowerblue
+}
